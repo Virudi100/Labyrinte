@@ -1,0 +1,419 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.23f1 (c5d91304a876) revision 12966163'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1466; Version 2009; 64bit' Language: 'fr' Physical Memory: 32482 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+G:/ALegeard/Unity/Labyrinte
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64625
+Successfully changed project path to: G:/ALegeard/Unity/Labyrinte
+G:/ALegeard/Unity/Labyrinte
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 24.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.23f1 (c5d91304a876)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/ALegeard/Unity/Labyrinte/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   
+    VRAM:     8043 MB
+    Driver:   30.0.14.9649
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001669 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 24.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.441 seconds
+Domain Reload Profiling:
+	ReloadAssembly (441ms)
+		BeginReloadAssembly (42ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (340ms)
+			LoadAssemblies (40ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (116ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (126ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (24ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (65ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001322 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.755 seconds
+Domain Reload Profiling:
+	ReloadAssembly (755ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (594ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (201ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (226ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.1 MB.
+System memory in use after: 69.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1941.
+Total: 2.110500 ms (FindLiveObjects: 0.144300 ms CreateObjectMapping: 0.043300 ms MarkObjects: 1.875300 ms  DeleteObjects: 0.046700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Sci-Fi Texture Pack 1/Materials/New Lighting Settings.lighting
+  artifactKey: Guid(396e79ca947b35f4fbeee25ce6f28f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Texture Pack 1/Materials/New Lighting Settings.lighting using Guid(396e79ca947b35f4fbeee25ce6f28f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5089f75ecd485f56979e9e9930087b') in 0.021825 seconds 
+  Import took 0.023629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 176.324362 seconds.
+  path: Assets/Lights.mat
+  artifactKey: Guid(a54aff01c21a5ab4da01903f43dd55e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lights.mat using Guid(a54aff01c21a5ab4da01903f43dd55e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed8649f6c3ba1d5b01d87d3d67b598f4') in 0.062801 seconds 
+  Import took 0.064718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 125.807445 seconds.
+  path: Assets/Prefabs/BluLight.prefab
+  artifactKey: Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BluLight.prefab using Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b35f3b703bae18676ba878db1735f08') in 0.016324 seconds 
+  Import took 0.018331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 616.069581 seconds.
+  path: Assets/Prefabs/BluLight.prefab
+  artifactKey: Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BluLight.prefab using Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40cfdb6efccd1242d24e41dd9ea0d110') in 0.013279 seconds 
+  Import took 0.016513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.545529 seconds.
+  path: Assets/Prefabs/BluLight.prefab
+  artifactKey: Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BluLight.prefab using Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83560996bac40d67256daa9effc869b') in 0.009858 seconds 
+  Import took 0.012136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.122462 seconds.
+  path: Assets/Prefabs/BluLight.prefab
+  artifactKey: Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BluLight.prefab using Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace608e7112341e980f1dc1d0a8fc88b') in 0.016166 seconds 
+  Import took 0.018230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.744587 seconds.
+  path: Assets/Prefabs/BluLight.prefab
+  artifactKey: Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BluLight.prefab using Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832b7d2777832e74d749633a312eb654') in 0.008438 seconds 
+  Import took 0.010481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.582656 seconds.
+  path: Assets/Prefabs/BluLight.prefab
+  artifactKey: Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BluLight.prefab using Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13edfac934de8b484cfa92fcd5a8d1b3') in 0.009569 seconds 
+  Import took 0.011563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.417932 seconds.
+  path: Assets/Prefabs/BluLight.prefab
+  artifactKey: Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BluLight.prefab using Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f7851b0c9e29e80ed0abcfcc51712b') in 0.011340 seconds 
+  Import took 0.013332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.377705 seconds.
+  path: Assets/Prefabs/BluLight.prefab
+  artifactKey: Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BluLight.prefab using Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b41bb6e684a7ae48556f5cb81c7590a') in 0.008601 seconds 
+  Import took 0.010635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.576867 seconds.
+  path: Assets/Prefabs/BluLight.prefab
+  artifactKey: Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BluLight.prefab using Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3da975a8774c79f530b7ca64835be1d') in 0.012875 seconds 
+  Import took 0.014904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.612241 seconds.
+  path: Assets/Prefabs/BluLight.prefab
+  artifactKey: Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BluLight.prefab using Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72af9d49a4ca133a1fd1a2ea6f2f375e') in 0.013654 seconds 
+  Import took 0.015664 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001286 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.711 seconds
+Domain Reload Profiling:
+	ReloadAssembly (711ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (560ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (191ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (209ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (138ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1497 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.3 MB.
+System memory in use after: 72.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1984.
+Total: 1.950900 ms (FindLiveObjects: 0.125700 ms CreateObjectMapping: 0.040800 ms MarkObjects: 1.771800 ms  DeleteObjects: 0.012000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 196.920007 seconds.
+  path: Assets/Prefabs/BluLight.prefab
+  artifactKey: Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BluLight.prefab using Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efbf41f1cf18be253744d70db901f7e8') in 0.042654 seconds 
+  Import took 0.044626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.426959 seconds.
+  path: Assets/Prefabs/BluLight.prefab
+  artifactKey: Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BluLight.prefab using Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de563880d9e6dde2e6040868274203b') in 0.008352 seconds 
+  Import took 0.010429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.047640 seconds.
+  path: Assets/Prefabs/BluLight.prefab
+  artifactKey: Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BluLight.prefab using Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39975af87e9f8ea135df4f040fe2c6d4') in 0.013276 seconds 
+  Import took 0.015243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.572787 seconds.
+  path: Assets/Prefabs/BluLight.prefab
+  artifactKey: Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BluLight.prefab using Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b8566d78fe83e79ca42fbe1f5a7af7') in 0.011902 seconds 
+  Import took 0.013929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.059455 seconds.
+  path: Assets/Prefabs/BluLight.prefab
+  artifactKey: Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BluLight.prefab using Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7c6dcac42d21095bc804f3b31921d8') in 0.007509 seconds 
+  Import took 0.009553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.310037 seconds.
+  path: Assets/Prefabs/BluLight.prefab
+  artifactKey: Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BluLight.prefab using Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4044c993f1b60c9a2c9b56f01ce5f49a') in 0.007396 seconds 
+  Import took 0.009436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.477912 seconds.
+  path: Assets/Prefabs/BluLight.prefab
+  artifactKey: Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BluLight.prefab using Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50753cc7b9440bc04b3cbdb5d0faf3e') in 0.007312 seconds 
+  Import took 0.009312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.221736 seconds.
+  path: Assets/Prefabs/BluLight.prefab
+  artifactKey: Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BluLight.prefab using Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ae034803d5cb3c63fb0083e6bb5412d') in 0.007365 seconds 
+  Import took 0.009335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.816163 seconds.
+  path: Assets/Prefabs/BluLight.prefab
+  artifactKey: Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BluLight.prefab using Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c649504379985d52a26b40feac0ba7ce') in 0.007763 seconds 
+  Import took 0.009769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.606299 seconds.
+  path: Assets/Prefabs/BluLight.prefab
+  artifactKey: Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BluLight.prefab using Guid(2cbd2dc8394101543b8afa5906f85bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08044b403859df300076a61f07c70d7a') in 0.007755 seconds 
+  Import took 0.009758 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002067 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.708 seconds
+Domain Reload Profiling:
+	ReloadAssembly (708ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (567ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (192ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (212ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (138ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1497 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.4 MB.
+System memory in use after: 72.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1987.
+Total: 2.073900 ms (FindLiveObjects: 0.138300 ms CreateObjectMapping: 0.045200 ms MarkObjects: 1.875700 ms  DeleteObjects: 0.013400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
